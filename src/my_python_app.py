@@ -1,3 +1,7 @@
+'''
+Este ficheiro é para ir para um container de Docker
+'''
+
 def capinha_amigo():
     '''
     Esta função é para o meu amigo capinha
