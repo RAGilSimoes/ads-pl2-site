@@ -49,3 +49,11 @@ jobs:
     needs: [test_app_a, test_app_b]
     steps:
       - run: echo "Deploying B..."
+
+  greet_capinha:
+    name: Greet Capinha
+    runs-on: ubuntu-latest
+    needs: [deploy_app_a, deploy_app_b]
+    steps:
+      - run: echo "Olá Capinha"
+      - run: echo "Tudo bem Capinha?"
