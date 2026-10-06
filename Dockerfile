@@ -15,5 +15,5 @@ COPY . .
 
 # Run linting or tests as part of CI
 # (You can override this in the GitHub Actions command)
-CMD ["python", "src/my-python-app.py"]
+CMD ["python", "src/my_python_app.py"]
 
